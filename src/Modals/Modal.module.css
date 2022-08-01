@@ -1,0 +1,27 @@
+
+.modalContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.imgCSS {
+    width: 30vw;
+    height: 60vh;
+    flex: 4;
+    border-radius: 8px;
+}
+
+.modalContent {
+    flex: 15;
+    text-align: left;
+    margin-left: 30px;
+    color: black
+}
+
+.popular {
+    margin: 0px 30px;
+}

@@ -1,0 +1,244 @@
+.App {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+}
+
+.navbar_components {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav_comp {
+  flex: 1;
+  margin: 20px;
+}
+
+.nav_comp:hover {
+  color: red;
+}
+
+
+.filter {
+  float: left;
+  overflow: hidden;
+  flex: 1;
+}
+
+#filter_btn {
+  border: none; 
+  width: 80%; 
+  background-color: red;
+  color: black; 
+  height: 50px;
+  border-radius: 3px;
+}
+
+#filter_btn:hover {
+  opacity: "0.8"
+}
+
+.filter-content {
+  display: none;
+  border-radius: 6px;
+  position: relative;
+  background-color: black;
+  width: 80%;
+  left: 0;
+  margin: auto;
+}
+
+.filter-content .header {
+  background: gray;
+  padding: 10px;
+  color: black;
+}
+
+.filter:hover .filter-content {
+  display: block;
+}
+
+.movie-slide {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+  position: relative;
+}
+
+.trailer {
+  width: 90%;
+  position: relative;
+  top: 0px;
+  left: 0;
+  z-index: 0;
+}
+
+.trailer_desc {
+  margin-top: 12vh;
+  text-align: left;
+  font-size: 4.8rem;
+  margin-left: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#top_rated {
+  text-align: left;
+  flex: 1;
+}
+
+.movie_head {
+  display: flex;
+  flex-direction: row;
+}
+
+.movie-body {
+  margin-top: 100px;
+  flex: 30;
+}
+
+.Movies {
+  display: grid;
+  grid-template-columns: auto auto auto auto
+}
+
+.Movie {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.movie_info {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.user {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#info {
+  list-style-type: none;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 30px;
+  text-align: center;
+}
+
+#load {
+  text-align: center;
+  color: red;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+#Up {
+  background-color: red;
+  width: 100%;
+  color: beige;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#Up:hover {
+  background-color: gray;
+  color: black;
+}
+
+.searchRes {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.searchMovie_img {
+  width: 80%;
+  height: 80%;
+  border-radius: 4px;
+  margin: auto;
+}
+
+.searchMovie_in4 {
+  margin: 15px;
+  opacity: 0.8;
+  border-radius: 8px;
+  height: 30px;
+}
+
+.searchMovie_in4:hover {
+  background-color: red;
+  color: white
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  margin: auto;
+  width: 60vw;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.modal_btn {
+  width: 6vw;
+  margin: 10px;
+  background-color: black;
+  color: red;
+  height: 3rem;
+  border: 5px;
+  border-radius: 50px;
+  font-size: 2rem;
+}
+
+.modal_btn:hover {
+  background-color: #282c34;
+  color: white;
+}

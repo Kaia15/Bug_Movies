@@ -1,0 +1,26 @@
+const genres = [
+    {genre: "Action", genreMovieID: 28, genreTvID: 10759},
+    {genre: "Adventure", genreMovieID: 12, genreTvID: 10759},
+    {genre: "Animation", genreMovieID: 16, genreTvID: 16},
+    {genre:"Comedy", genreMovieID: 35, genreTvID: 35},
+    {genre:"Crime", genreMovieID: 80, genreTvID: 80},
+    {genre:"Documentary", genreMovieID: 99, genreTvID: 99},
+    {genre:"Drama", genreMovieID: 18, genreTvID: 18},
+    {genre:"Family", genreMovieID: 10751, genreTvID: 10751},
+    {genre:"Fantasy", genreMovieID: 14, genreTvID: 10765},
+    {genre:"History", genreMovieID: 36, genreTvID: 10768},
+    {genre:"Horror", genreMovieID: 27, genreTvID: 9648},
+    {genre:"Music", genreMovieID: 10402, genreTvID: 99},
+    {genre:"Mystery", genreMovieID: 9648, genreTvID: 9648},
+    {genre:"Romance", genreMovieID: 10749, genreTvID: 10751},
+    {genre:"Science Fiction", genreMovieID: 878, genreTvID: 10765},
+    {genre:"TV Movie", genreMovieID: 10770},
+    {genre:"Thriller", genreMovieID: 53},
+    {genre:"War", genreMovieID: 10752, genreTvID: 10768},
+    {genre:"Western", genreMovieID: 37, genreTvID: 37},
+    {genre:"Talk", genreTvID: 10767},
+    {genre:"Reality", genreTvID: 10764},
+    {genre:"News", genreTvID: 10763},
+]
+
+export default genres
